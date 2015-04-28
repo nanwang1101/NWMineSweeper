@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NWTileView">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="189"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="189"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWe-rV-O8j">
+                        <rect key="frame" x="2" y="2" width="179" height="185"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w4k-EK-Jg6">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="189"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag.png" translatesAutoresizingMaskIntoConstraints="NO" id="mFq-lt-Bjb">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="189"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mFq-lt-Bjb" firstAttribute="leading" secondItem="w4k-EK-Jg6" secondAttribute="leading" id="2za-qn-krU"/>
+                            <constraint firstItem="mFq-lt-Bjb" firstAttribute="top" secondItem="w4k-EK-Jg6" secondAttribute="top" id="Sx4-DX-GlP"/>
+                            <constraint firstAttribute="bottom" secondItem="mFq-lt-Bjb" secondAttribute="bottom" id="dzs-Hw-cSN"/>
+                            <constraint firstAttribute="trailing" secondItem="mFq-lt-Bjb" secondAttribute="trailing" id="whs-iQ-ZMb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FWe-rV-O8j" secondAttribute="trailing" constant="2" id="Ch8-2W-1WF"/>
+                <constraint firstAttribute="bottom" secondItem="w4k-EK-Jg6" secondAttribute="bottom" id="FIv-Ur-W0L"/>
+                <constraint firstItem="FWe-rV-O8j" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="dsp-eM-qBN"/>
+                <constraint firstItem="FWe-rV-O8j" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="f0D-0N-QQy"/>
+                <constraint firstItem="w4k-EK-Jg6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="iD6-9r-MTh"/>
+                <constraint firstAttribute="bottom" secondItem="FWe-rV-O8j" secondAttribute="bottom" constant="2" id="loW-sk-qDh"/>
+                <constraint firstAttribute="trailing" secondItem="w4k-EK-Jg6" secondAttribute="trailing" id="seM-lO-Hch"/>
+                <constraint firstItem="w4k-EK-Jg6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="u7O-NB-JNz"/>
+            </constraints>
+            <size key="customSize" width="183" height="189"/>
+            <connections>
+                <outlet property="coverView" destination="w4k-EK-Jg6" id="E6O-vY-GYx"/>
+                <outlet property="flagImageView" destination="mFq-lt-Bjb" id="Hyy-Gu-dEU"/>
+                <outlet property="valueLabel" destination="FWe-rV-O8j" id="mdU-IU-jcI"/>
+            </connections>
+            <point key="canvasLocation" x="880.5" y="553.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="flag.png" width="128" height="128"/>
+    </resources>
+</document>

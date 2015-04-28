@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A987E5F41ADC699800C22DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E5F31ADC699800C22DDB /* main.m */; };
+		A987E5F71ADC699800C22DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E5F61ADC699800C22DDB /* AppDelegate.m */; };
+		A987E5FF1ADC699800C22DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A987E5FE1ADC699800C22DDB /* Images.xcassets */; };
+		A987E6021ADC699800C22DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A987E6001ADC699800C22DDB /* LaunchScreen.xib */; };
+		A987E60E1ADC699800C22DDB /* MineSweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E60D1ADC699800C22DDB /* MineSweeperTests.m */; };
+		A987E6331ADC6F3D00C22DDB /* NWGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6321ADC6F3D00C22DDB /* NWGame.m */; };
+		A987E63A1ADC764800C22DDB /* NWTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6391ADC764800C22DDB /* NWTile.m */; };
+		A987E6401ADC76A600C22DDB /* NWNumberTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E63F1ADC76A600C22DDB /* NWNumberTile.m */; };
+		A987E6431ADC76D400C22DDB /* NWMineTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6421ADC76D400C22DDB /* NWMineTile.m */; };
+		A987E6461ADC76DE00C22DDB /* NWGameControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6451ADC76DE00C22DDB /* NWGameControl.m */; };
+		A987E6491ADC8FC600C22DDB /* NWBoardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6481ADC8FC600C22DDB /* NWBoardCollectionViewController.m */; };
+		A987E64F1ADCC88100C22DDB /* NWTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E64D1ADCC88100C22DDB /* NWTileView.m */; };
+		A987E6501ADCC88100C22DDB /* NWTileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A987E64E1ADCC88100C22DDB /* NWTileView.xib */; };
+		A987E6541ADCDEA700C22DDB /* NWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6521ADCDEA700C22DDB /* NWMainViewController.m */; };
+		A987E6551ADCDEA700C22DDB /* NWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A987E6531ADCDEA700C22DDB /* NWMainViewController.xib */; };
+		A987E6591ADD9D1700C22DDB /* NWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A987E6571ADD9D1700C22DDB /* NWSettingViewController.m */; };
+		A987E65A1ADD9D1700C22DDB /* NWSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A987E6581ADD9D1700C22DDB /* NWSettingViewController.xib */; };
+		A987E65D1ADDCB4500C22DDB /* flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A987E65C1ADDCB4500C22DDB /* flag@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A987E6081ADC699800C22DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A987E5E61ADC699800C22DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A987E5ED1ADC699800C22DDB;
+			remoteInfo = MineSweeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A987E5EE1ADC699800C22DDB /* MineSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A987E5F21ADC699800C22DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A987E5F31ADC699800C22DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A987E5F51ADC699800C22DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A987E5F61ADC699800C22DDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A987E5FE1ADC699800C22DDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A987E6011ADC699800C22DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A987E6071ADC699800C22DDB /* MineSweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A987E60C1ADC699800C22DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A987E60D1ADC699800C22DDB /* MineSweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeperTests.m; sourceTree = "<group>"; };
+		A987E6311ADC6F3D00C22DDB /* NWGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWGame.h; path = Model/NWGame.h; sourceTree = "<group>"; };
+		A987E6321ADC6F3D00C22DDB /* NWGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWGame.m; path = Model/NWGame.m; sourceTree = "<group>"; };
+		A987E6381ADC764800C22DDB /* NWTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWTile.h; path = Model/NWTile.h; sourceTree = "<group>"; };
+		A987E6391ADC764800C22DDB /* NWTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWTile.m; path = Model/NWTile.m; sourceTree = "<group>"; };
+		A987E63E1ADC76A600C22DDB /* NWNumberTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWNumberTile.h; path = Model/NWNumberTile.h; sourceTree = "<group>"; };
+		A987E63F1ADC76A600C22DDB /* NWNumberTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWNumberTile.m; path = Model/NWNumberTile.m; sourceTree = "<group>"; };
+		A987E6411ADC76D400C22DDB /* NWMineTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWMineTile.h; path = Model/NWMineTile.h; sourceTree = "<group>"; };
+		A987E6421ADC76D400C22DDB /* NWMineTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWMineTile.m; path = Model/NWMineTile.m; sourceTree = "<group>"; };
+		A987E6441ADC76DE00C22DDB /* NWGameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWGameControl.h; path = Model/NWGameControl.h; sourceTree = "<group>"; };
+		A987E6451ADC76DE00C22DDB /* NWGameControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWGameControl.m; path = Model/NWGameControl.m; sourceTree = "<group>"; };
+		A987E6471ADC8FC600C22DDB /* NWBoardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWBoardCollectionViewController.h; path = "View Controller/NWBoardCollectionViewController.h"; sourceTree = "<group>"; };
+		A987E6481ADC8FC600C22DDB /* NWBoardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWBoardCollectionViewController.m; path = "View Controller/NWBoardCollectionViewController.m"; sourceTree = "<group>"; };
+		A987E64C1ADCC88100C22DDB /* NWTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWTileView.h; path = View/NWTileView.h; sourceTree = "<group>"; };
+		A987E64D1ADCC88100C22DDB /* NWTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWTileView.m; path = View/NWTileView.m; sourceTree = "<group>"; };
+		A987E64E1ADCC88100C22DDB /* NWTileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NWTileView.xib; path = View/NWTileView.xib; sourceTree = "<group>"; };
+		A987E6511ADCDEA700C22DDB /* NWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWMainViewController.h; path = "View Controller/NWMainViewController.h"; sourceTree = "<group>"; };
+		A987E6521ADCDEA700C22DDB /* NWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWMainViewController.m; path = "View Controller/NWMainViewController.m"; sourceTree = "<group>"; };
+		A987E6531ADCDEA700C22DDB /* NWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NWMainViewController.xib; path = "View Controller/NWMainViewController.xib"; sourceTree = "<group>"; };
+		A987E6561ADD9D1700C22DDB /* NWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWSettingViewController.h; path = "View Controller/NWSettingViewController.h"; sourceTree = "<group>"; };
+		A987E6571ADD9D1700C22DDB /* NWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWSettingViewController.m; path = "View Controller/NWSettingViewController.m"; sourceTree = "<group>"; };
+		A987E6581ADD9D1700C22DDB /* NWSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NWSettingViewController.xib; path = "View Controller/NWSettingViewController.xib"; sourceTree = "<group>"; };
+		A987E65C1ADDCB4500C22DDB /* flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag@2x.png"; path = "Resource/flag@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A987E5EB1ADC699800C22DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A987E6041ADC699800C22DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A987E5E51ADC699800C22DDB = {
+			isa = PBXGroup;
+			children = (
+				A987E5F01ADC699800C22DDB /* MineSweeper */,
+				A987E60A1ADC699800C22DDB /* MineSweeperTests */,
+				A987E5EF1ADC699800C22DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A987E5EF1ADC699800C22DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A987E5EE1ADC699800C22DDB /* MineSweeper.app */,
+				A987E6071ADC699800C22DDB /* MineSweeperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A987E5F01ADC699800C22DDB /* MineSweeper */ = {
+			isa = PBXGroup;
+			children = (
+				A987E5F51ADC699800C22DDB /* AppDelegate.h */,
+				A987E5F61ADC699800C22DDB /* AppDelegate.m */,
+				A987E64A1ADC8FE600C22DDB /* View Controller */,
+				A987E6171ADC69C100C22DDB /* Model */,
+				A987E64B1ADCC81D00C22DDB /* View */,
+				A987E65B1ADDCB1B00C22DDB /* Resource */,
+				A987E5FE1ADC699800C22DDB /* Images.xcassets */,
+				A987E6001ADC699800C22DDB /* LaunchScreen.xib */,
+				A987E5F11ADC699800C22DDB /* Supporting Files */,
+			);
+			path = MineSweeper;
+			sourceTree = "<group>";
+		};
+		A987E5F11ADC699800C22DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A987E5F21ADC699800C22DDB /* Info.plist */,
+				A987E5F31ADC699800C22DDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A987E60A1ADC699800C22DDB /* MineSweeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A987E60D1ADC699800C22DDB /* MineSweeperTests.m */,
+				A987E60B1ADC699800C22DDB /* Supporting Files */,
+			);
+			path = MineSweeperTests;
+			sourceTree = "<group>";
+		};
+		A987E60B1ADC699800C22DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A987E60C1ADC699800C22DDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A987E6171ADC69C100C22DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A987E6371ADC763A00C22DDB /* Tile */,
+				A987E6311ADC6F3D00C22DDB /* NWGame.h */,
+				A987E6321ADC6F3D00C22DDB /* NWGame.m */,
+				A987E6441ADC76DE00C22DDB /* NWGameControl.h */,
+				A987E6451ADC76DE00C22DDB /* NWGameControl.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A987E6371ADC763A00C22DDB /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				A987E6381ADC764800C22DDB /* NWTile.h */,
+				A987E6391ADC764800C22DDB /* NWTile.m */,
+				A987E6411ADC76D400C22DDB /* NWMineTile.h */,
+				A987E6421ADC76D400C22DDB /* NWMineTile.m */,
+				A987E63E1ADC76A600C22DDB /* NWNumberTile.h */,
+				A987E63F1ADC76A600C22DDB /* NWNumberTile.m */,
+			);
+			name = Tile;
+			sourceTree = "<group>";
+		};
+		A987E64A1ADC8FE600C22DDB /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A987E6471ADC8FC600C22DDB /* NWBoardCollectionViewController.h */,
+				A987E6481ADC8FC600C22DDB /* NWBoardCollectionViewController.m */,
+				A987E6511ADCDEA700C22DDB /* NWMainViewController.h */,
+				A987E6521ADCDEA700C22DDB /* NWMainViewController.m */,
+				A987E6531ADCDEA700C22DDB /* NWMainViewController.xib */,
+				A987E6561ADD9D1700C22DDB /* NWSettingViewController.h */,
+				A987E6571ADD9D1700C22DDB /* NWSettingViewController.m */,
+				A987E6581ADD9D1700C22DDB /* NWSettingViewController.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		A987E64B1ADCC81D00C22DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A987E64C1ADCC88100C22DDB /* NWTileView.h */,
+				A987E64D1ADCC88100C22DDB /* NWTileView.m */,
+				A987E64E1ADCC88100C22DDB /* NWTileView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A987E65B1ADDCB1B00C22DDB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A987E65C1ADDCB4500C22DDB /* flag@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A987E5ED1ADC699800C22DDB /* MineSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A987E6111ADC699800C22DDB /* Build configuration list for PBXNativeTarget "MineSweeper" */;
+			buildPhases = (
+				A987E5EA1ADC699800C22DDB /* Sources */,
+				A987E5EB1ADC699800C22DDB /* Frameworks */,
+				A987E5EC1ADC699800C22DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper;
+			productName = MineSweeper;
+			productReference = A987E5EE1ADC699800C22DDB /* MineSweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A987E6061ADC699800C22DDB /* MineSweeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A987E6141ADC699800C22DDB /* Build configuration list for PBXNativeTarget "MineSweeperTests" */;
+			buildPhases = (
+				A987E6031ADC699800C22DDB /* Sources */,
+				A987E6041ADC699800C22DDB /* Frameworks */,
+				A987E6051ADC699800C22DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A987E6091ADC699800C22DDB /* PBXTargetDependency */,
+			);
+			name = MineSweeperTests;
+			productName = MineSweeperTests;
+			productReference = A987E6071ADC699800C22DDB /* MineSweeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A987E5E61ADC699800C22DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NW;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nan Wang";
+				TargetAttributes = {
+					A987E5ED1ADC699800C22DDB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A987E6061ADC699800C22DDB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A987E5ED1ADC699800C22DDB;
+					};
+				};
+			};
+			buildConfigurationList = A987E5E91ADC699800C22DDB /* Build configuration list for PBXProject "MineSweeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A987E5E51ADC699800C22DDB;
+			productRefGroup = A987E5EF1ADC699800C22DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A987E5ED1ADC699800C22DDB /* MineSweeper */,
+				A987E6061ADC699800C22DDB /* MineSweeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A987E5EC1ADC699800C22DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A987E6501ADCC88100C22DDB /* NWTileView.xib in Resources */,
+				A987E6021ADC699800C22DDB /* LaunchScreen.xib in Resources */,
+				A987E65D1ADDCB4500C22DDB /* flag@2x.png in Resources */,
+				A987E65A1ADD9D1700C22DDB /* NWSettingViewController.xib in Resources */,
+				A987E6551ADCDEA700C22DDB /* NWMainViewController.xib in Resources */,
+				A987E5FF1ADC699800C22DDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A987E6051ADC699800C22DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A987E5EA1ADC699800C22DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A987E6401ADC76A600C22DDB /* NWNumberTile.m in Sources */,
+				A987E6591ADD9D1700C22DDB /* NWSettingViewController.m in Sources */,
+				A987E64F1ADCC88100C22DDB /* NWTileView.m in Sources */,
+				A987E6541ADCDEA700C22DDB /* NWMainViewController.m in Sources */,
+				A987E5F71ADC699800C22DDB /* AppDelegate.m in Sources */,
+				A987E6431ADC76D400C22DDB /* NWMineTile.m in Sources */,
+				A987E6331ADC6F3D00C22DDB /* NWGame.m in Sources */,
+				A987E6491ADC8FC600C22DDB /* NWBoardCollectionViewController.m in Sources */,
+				A987E63A1ADC764800C22DDB /* NWTile.m in Sources */,
+				A987E5F41ADC699800C22DDB /* main.m in Sources */,
+				A987E6461ADC76DE00C22DDB /* NWGameControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A987E6031ADC699800C22DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A987E60E1ADC699800C22DDB /* MineSweeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A987E6091ADC699800C22DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A987E5ED1ADC699800C22DDB /* MineSweeper */;
+			targetProxy = A987E6081ADC699800C22DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A987E6001ADC699800C22DDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A987E6011ADC699800C22DDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A987E60F1ADC699800C22DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A987E6101ADC699800C22DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A987E6121ADC699800C22DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A987E6131ADC699800C22DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineSweeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A987E6151ADC699800C22DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSweeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/MineSweeper";
+			};
+			name = Debug;
+		};
+		A987E6161ADC699800C22DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSweeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSweeper.app/MineSweeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A987E5E91ADC699800C22DDB /* Build configuration list for PBXProject "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A987E60F1ADC699800C22DDB /* Debug */,
+				A987E6101ADC699800C22DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A987E6111ADC699800C22DDB /* Build configuration list for PBXNativeTarget "MineSweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A987E6121ADC699800C22DDB /* Debug */,
+				A987E6131ADC699800C22DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A987E6141ADC699800C22DDB /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A987E6151ADC699800C22DDB /* Debug */,
+				A987E6161ADC699800C22DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A987E5E61ADC699800C22DDB /* Project object */;
+}
