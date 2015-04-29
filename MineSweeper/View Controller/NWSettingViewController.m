@@ -16,7 +16,7 @@ static CGFloat const oneLevel = 3.0f;
 @property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 
 @property (nonatomic, copy) doneSettingBlock doneHandler;
-@property (nonnull, strong) NWGameControl *gameControl;
+@property (nonatomic, strong) NWGameControl *gameControl;
 
 @end
 
